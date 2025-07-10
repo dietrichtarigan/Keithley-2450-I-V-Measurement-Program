@@ -59,8 +59,6 @@ A modular, fully configurable GUI application for I-V curve measurements using t
 
 ## File Structure
 
-### Core Files
-
 | File | Description |
 |------|-------------|
 | `interface_gui.py` | Main GUI implementation using Tkinter |
