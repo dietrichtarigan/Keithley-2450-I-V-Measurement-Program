@@ -59,14 +59,14 @@ A modular, fully configurable GUI application for I-V curve measurements using t
 
 ## File Structure
 
-| File | Description |
-|------|-------------|
-| `interface_gui.py` | Main GUI implementation using Tkinter |
-| `smu_logic.py` | Core SMU control and measurement logic |
-| `config.py` | Centralized configuration settings |
-| `gpib_helper.py` | Robust GPIB connection handling |
-| `requirements.txt` | Required Python packages |
-| `run.bat` | Automated setup and launch script |
+| File               | Description                            |
+| ------------------ | -------------------------------------- |
+| `interface_gui.py` | Main GUI implementation using Tkinter  |
+| `main.py`          | Core SMU control and measurement logic |
+| `config.py`        | Centralized configuration settings     |
+| `gpib_helper.py`   | Robust GPIB connection handling        |
+| `requirements.txt` | Required Python packages               |
+| `run.bat`          | Automated setup and launch script      |
 
 ## Detailed Component Overview
 
@@ -90,7 +90,7 @@ The graphical user interface module built with Tkinter and Matplotlib.
 - `change_gpib_address()`: Opens dialog to change GPIB address remotely
 - `save_data()`: Saves measurement data to CSV
 
-### `smu_logic.py`
+### `main.py`
 
 Core functionality for controlling the Keithley 2450 SMU and performing measurements.
 
