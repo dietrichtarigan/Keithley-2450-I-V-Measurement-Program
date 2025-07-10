@@ -224,12 +224,3 @@ To customize the application:
 
 This application is provided under the [MIT License](LICENSE).
 
-## Acknowledgments
-
-- Keithley 2450 SMU instrument documentation
-- PyVISA and PyVISA-py projects
-- Matplotlib plotting library
-
----
-
-*Documentation created for Keithley 2450 SMU I-V Curve Measurement Application*
